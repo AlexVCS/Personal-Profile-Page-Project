@@ -27,10 +27,11 @@ a:hover {
   width: 100%;
   background: black;
   min-height: 30px;
-  padding: 10px;
+  padding: 5px;
   position: fixed;
   text-align: center;
 }
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -46,7 +47,7 @@ a:hover {
     color: white;
 }
 .nav li {
-  padding: 5px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
 }
 .nav a {
   transition: all .5s;
@@ -63,19 +64,20 @@ header {
   padding-top: 60px;
 }
 header {
-  line-height: 1.5;
+  line-height: .4;
 }
 header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 70%;
   border: 3px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: rotateX(190deg);
 }
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -84,6 +86,7 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 }
+
 .location {
   background-color: #222;
   color: yellow;
@@ -97,6 +100,9 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+}
+.experience {
+  background: #FF5722;
 }
 .card:hover {
   border-color: #ff99ff;
